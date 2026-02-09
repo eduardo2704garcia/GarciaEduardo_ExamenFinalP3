@@ -1,7 +1,7 @@
 //nota final calculada
 function calcWeightedGrade(items) {
     if (!Array.isArray(items)) {
-        throw new TypeError('items debe ser un arreglo');
+        throw new TypeError("items debe ser un arreglo");
     }
 
     //cada item tiene valor numerico
@@ -11,7 +11,7 @@ function calcWeightedGrade(items) {
         }
         //validacion
         if (item.score < 0 || item.score > 100) {
-        throw new RangeError('score debe estar entre 0 y 100');
+        throw new RangeError("score debe estar entre 0 y 100");
         }
         if (item.weight < 0 || item.weight > 1) {
         throw new RangeError('weight debe estar entre 0 y 1');

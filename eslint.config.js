@@ -6,8 +6,8 @@ export default[
             sourceType: 'module'
         },
         rules: {
-            'semi': ['error', 'always'],
-            'quotes': ['error', 'single']
+            'semi': ['error', 'always'], //regña para punto y coma
+            'quotes': ['error', 'single'] //regla para comillas simples
         }
     }
 ];
