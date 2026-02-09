@@ -2,9 +2,9 @@ name: CI/CD Workflow
 
 on:
   push:
-    branches: [ main, RamaEduardo ]
+    branches: [ RamaEduardo ]
   pull_request:
-    branches: [ main, RamaEduardo ]
+    branches: [ RamaEduardo ]
 
 jobs:
   build-and-test:
