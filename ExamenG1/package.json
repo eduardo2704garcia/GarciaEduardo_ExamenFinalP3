@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "start": "node index.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "coverage": "jest --coverage"
   },
   "type": "module",
   "keywords": [],
